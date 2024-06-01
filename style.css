@@ -1,0 +1,43 @@
+
+canvas {
+    border: 1px solid black;
+}
+
+
+button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blueButtons {
+    background-color: #132fbe;
+}
+
+button:hover {
+    background-color: #a538ff;
+}
+
+button:active {
+    background-color: #391f3d;
+}
+
+#resetButton {
+    background-color: #e07900;
+}
+
+#resetButton:hover {
+    background-color: #ff3cfc;
+}
+
+#resetButton:active {
+    background-color: #13191c;
+}
+
+
+
